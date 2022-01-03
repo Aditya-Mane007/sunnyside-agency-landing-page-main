@@ -1,0 +1,27 @@
+@import './Colors';
+.reviews-section{
+    font-size: 1.5rem;
+    text-align: center;
+    .title-text{
+        margin: 2rem auto;
+    }
+    .reviews{
+        .review{
+            margin: 2rem auto;
+            font-size: 1rem;
+            img{
+                width: 20%;
+                border-radius: 50px;
+                margin: 2rem auto;
+            }
+            .review-text{
+                width: 90%;
+                margin: auto;
+                margin-bottom: 1rem;
+            }
+            .name{
+                margin: 1rem;
+            }
+        }
+    }
+}

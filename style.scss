@@ -1,0 +1,18 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@media (min-width: 720px) {
+	@import './cssComponents/section1PC';
+	@import './cssComponents/section2PC';
+	@import './cssComponents/_section3PC.scss';
+	@import './cssComponents/section4PC';
+}
+@media (max-width: 720px) {
+	// @import './cssComponents/section1MO';
+	@import './cssComponents/_section1MO.scss';
+	@import './cssComponents/section2MO';
+	@import './cssComponents/section3MO';
+	@import './cssComponents/section4MO';
+}

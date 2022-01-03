@@ -1,0 +1,38 @@
+@import './Colors';
+.footer-section {
+	background-color: $footer;
+	padding: 2rem;
+	.logo {
+		// background-color: aqua;
+        text-align: center;
+		width: 50%;
+		margin: auto;
+	}
+	.footer-nav {
+		// background-color: aqua;
+		margin: 2rem auto;
+        width: 50%;
+		.footer-links {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.footer-link {
+			list-style: none;
+			cursor: pointer;
+		}
+	}
+	.footer-socials-links {
+		width: 30%;
+		margin: 2rem auto;
+		.social-links {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		.social-link {
+			list-style: none;
+			cursor: pointer;
+		}
+	}
+}

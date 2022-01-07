@@ -8,6 +8,7 @@
 	@import './cssComponents/section2PC';
 	@import './cssComponents/_section3PC.scss';
 	@import './cssComponents/section4PC';
+	@import './cssComponents/imagePC';
 }
 @media (max-width: 720px) {
 	// @import './cssComponents/section1MO';
@@ -15,4 +16,5 @@
 	@import './cssComponents/section2MO';
 	@import './cssComponents/section3MO';
 	@import './cssComponents/section4MO';
+	@import './cssComponents/imageMo';
 }
